@@ -1,0 +1,49 @@
+advanced:
+  db_connection: ''
+  debug_mode: false
+  log_level: INFO
+app:
+  auto_update: true
+  language: en
+  log_level: INFO
+  startup_frame: login
+  theme: dark
+appearance:
+  color_theme: system
+  ui_scaling: 80%
+bot:
+  auto_restart: false
+  default_interval: 1.0
+  max_retries: 3
+  timeout: 10.0
+database:
+  auth_enabled: false
+  host: localhost
+  name: wydbot_db
+  port: 27017
+game:
+  auto_login: true
+  launch_parameters: ''
+  path: E:/Games/New WYD Client/WYD.exe
+  paths:
+    WYD: E:/Games/New WYD Client/WYD.exe
+  resolution: 1280x720
+  window_mode: windowed
+general:
+  auto_update: true
+  minimize_to_tray: true
+  startup: false
+network:
+  connection_timeout: 30.0
+  proxy:
+    host: ''
+    password: ''
+    port: ''
+    username: ''
+  use_proxy: false
+  use_vpn: false
+ui:
+  animation_speed: 0.3
+  compact_mode: false
+  font_size: 12
+  show_tooltips: true

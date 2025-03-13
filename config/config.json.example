@@ -1,0 +1,39 @@
+{
+    "application": {
+        "name": "WydBot",
+        "version": "1.0.0",
+        "theme": "dark",
+        "language": "en",
+        "debug_mode": false
+    },
+    "database": {
+        "connection_string": "mongodb://localhost:27017",
+        "use_mock_db": false,
+        "connect_timeout_ms": 10000,
+        "server_selection_timeout_ms": 10000,
+        "ssl": false,
+        "tls_allow_invalid_certificates": true
+    },
+    "logging": {
+        "level": "INFO",
+        "console_level": "INFO",
+        "log_dir": "logs"
+    },
+    "network": {
+        "use_proxy": false,
+        "use_vpn": false,
+        "proxy": {
+            "host": "",
+            "port": 0,
+            "username": "",
+            "password": ""
+        }
+    },
+    "game": {
+        "paths": {}
+    },
+    "bot": {
+        "default_interval": 1.0,
+        "health_check_interval": 5.0
+    }
+} 

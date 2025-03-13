@@ -1,0 +1,34 @@
+app:
+  theme: dark
+  language: en
+  log_level: INFO
+  auto_update: true
+  startup_frame: login
+
+ui:
+  font_size: 12
+  animation_speed: 0.3
+  show_tooltips: true
+  compact_mode: false
+
+database:
+  host: localhost
+  port: 27017
+  name: wydbot_db
+  auth_enabled: false
+
+bot:
+  default_interval: 1.0
+  max_retries: 3
+  timeout: 10.0
+  auto_restart: false
+
+network:
+  use_vpn: false
+  use_proxy: false
+  connection_timeout: 30.0
+
+game:
+  launch_parameters: ""
+  window_mode: windowed
+  resolution: 1280x720 
